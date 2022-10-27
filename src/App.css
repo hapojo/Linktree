@@ -32,6 +32,62 @@
   margin-right: 10px;
 }
 
+.profile {
+  color: #101828;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.image1 {
+  transition: .5s ease;
+  cursor: pointer;
+  text-align: center;
+  z-index: 9;
+
+}
+
+.profileIcon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profileMiddle {
+  transition: .5s ease;
+  cursor: pointer;
+  position: absolute;
+  top: 13.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 50%;
+  height: 11%;
+  background: #344054;
+  opacity: 0;
+  z-index: 100;
+}
+
+.image2 {
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-top: 30px;
+}
+
+.image1:hover .profileMiddle {
+  visibility: visible;
+}
+
+
+.profileMiddle:hover {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
