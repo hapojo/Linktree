@@ -133,6 +133,42 @@ button a {
   margin-right: 15px;
 }
 
+.footer {
+  border-top: 1px solid #EAECF0;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.footer h4 {
+  color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer span {
+  color: red;
+  font-size: 25px;
+}
+
+.footer p {
+  color: #667085;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-img {
+  margin-top: 10px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

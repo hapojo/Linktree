@@ -35,6 +35,18 @@ function App() {
           <img src="./image/Icon (1).svg" alt=""></img>
         </div>
 
+        <div class="footer">
+          <div>
+            <h4>Zuri<span>.</span>Internship</h4>
+          </div>
+          <div>
+            <p>HNG Internship 9 Frontend Task</p>
+          </div>
+          <div class="footer-img">
+            <img src="./image/I4G.svg" alt=""></img>
+          </div>
+        </div>
+
       </div>
     </div>
   );
