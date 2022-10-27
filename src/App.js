@@ -30,6 +30,11 @@ function App() {
           <button id="book_design"><a href="https://books.zuri.team/design-rules">Design Books</a></button>
         </div>
 
+        <div class="slackIcon">
+          <img src="./image/slack.svg" id="slack" alt=""></img>
+          <img src="./image/Icon (1).svg" alt=""></img>
+        </div>
+
       </div>
     </div>
   );

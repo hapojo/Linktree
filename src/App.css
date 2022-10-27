@@ -125,6 +125,14 @@ button a {
   text-align: center;
 }
 
+.slackIcon {
+  margin-top: 15px
+}
+
+.slackIcon img {
+  margin-right: 15px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
